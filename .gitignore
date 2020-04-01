@@ -1,0 +1,12 @@
+# Local .terraform directories
+**/.terraform*
+
+# .tfstate files
+terraform.tf*
+
+# azure.tf files so that we never publish credentials
+**/azure.tf
+
+# Crash log files
+crash.log
+*.swp
